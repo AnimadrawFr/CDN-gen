@@ -55,9 +55,7 @@ function getConfig(projectFolder, entryFile, babel = false) {
 //To setup a new config add here
 const allprojects = {
     //parcours senior project config
-    annuaire: getConfig('annuaire', 'app', false),
-    annuaire: getConfig('OAPRO', 'app', false)
-
+    annuaire: getConfig('portfolio', 'app', false),
 };
 
 //module.exports = allprojects.annuaire;
